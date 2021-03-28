@@ -59,7 +59,8 @@ btn.addEventListener( "click", function() {
          //alla fine del loop calcolo il prezzo
          console.log(price);
 
-         //stampa il prezzo nell'app
+         //stampa il prezzo nell'app. Con inner.HTML imposto o modifico il contenuto HTML di un tag.
+         displayPrice.innerHTML = price.toFixed(2);
 
 
 
